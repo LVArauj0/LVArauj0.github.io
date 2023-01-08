@@ -3,7 +3,7 @@
 body{
     
     margin: 0%;
-    
+    font-family: inherit;
     
 }
 
@@ -74,28 +74,24 @@ h1{
 #proid{
     margin-top: 15px;
 }
-.saibamais{
+#saibamais{
     display: flex;
+    font-size: 25px;
     justify-content: center;
-    border:  solid black;
-    border-radius: 15px 20px 15px 20px;
-    width: 200px;
-    align-self: center;
-    margin-left: 550px;
-    
+    align-items: center;
     
 }
 .sobremim{
    display: flex;
    background-color: rgb(231, 231, 238);
-   height: 100vh;
-   align-items: center;
-
+   height: 50vh;
 }
 .text{
-   
+   align-items: center;
+   display: flex;
    text-align: center;
    font-size: 25px;
+   margin-top: 100px;
    
 }
 #img-1{
@@ -193,8 +189,6 @@ a{color: inherit;}
 }
 .experiencia-exp{
     padding: 10px 15px;
-    
     margin-top: 50px;
-    
-
 }
+
