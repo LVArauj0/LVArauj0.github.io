@@ -192,3 +192,23 @@ a{color: inherit;}
     margin-top: 50px;
 }
 
+.contato{
+    display: flex;
+    background-color: rgb(134, 134, 155);
+    height: 35vh;
+    border: solid black;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.linkedin{
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+.git{
+    display: flex;
+    align-items: center;
+    
+}
