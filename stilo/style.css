@@ -4,7 +4,8 @@ body{
     
     margin: 0%;
     font-family: inherit;
-    
+    background-color: rgb(245, 245, 245);
+    color: #008080
 }
 
 
@@ -22,10 +23,9 @@ ul{
     text-decoration: none;
     display: flex;
     padding: 10px 50px;
-    color: black;
-    background-color: rgb(134, 134, 155);
+    color: rgb(245, 245, 245);
     border-radius: 30%;
-    
+    background-color: black;
     
     
 }
@@ -40,7 +40,8 @@ li a:hover{
     display: flex;
     align-items: flex-end;
     justify-content: start;
-    background-color: rgb(134, 134, 155);
+    background-color: black;
+
 }
 .home{
     display: flex;
@@ -67,8 +68,7 @@ h1{
 .title{
     display: flex;
     justify-content:center;
-    background-color: rgb(134, 134, 155);
-    border: solid black;
+    margin-top: 20px;
 
 }
 #proid{
@@ -83,7 +83,6 @@ h1{
 }
 .sobremim{
    display: flex;
-   background-color: rgb(231, 231, 238);
    height: 50vh;
 }
 .text{
@@ -114,7 +113,6 @@ align-self: flex-end;
 }
 .services{
     display: flex;
-    background-color:rgb(231, 231, 238);
     height: 100vh;
     
     align-items: center;
@@ -122,8 +120,6 @@ align-self: flex-end;
 }
 .card{
     width: calc(33%-20px);
-    background-color: rgb(134, 134, 155);
-    border: solid black;
     text-align: center;
     padding: 20px 25px;
 }
@@ -132,26 +128,24 @@ align-self: flex-end;
     height: 70vh;
     flex-direction: column;
     justify-content: space-around;
-    background-color: rgb(231, 231, 238);
-}
+ }
 .lista{
     display: flex;
     font-size: 25px;
     justify-content: left;
     color: black;
-    background-color: grey;
+    background-color: gray;
     width: 100%;
 }
-.html{width: 80%; background-color: blue; text-align: right;}
-.css{width: 80%; background-color: aqua; text-align: right;}
-.python{width: 70%; background-color: red;text-align: right;}
-.linux{width: 60%; background-color: yellow; text-align: right;}
+.html{width: 80%; background-color: #008080; text-align: right;}
+.css{width: 80%; background-color: #008080; text-align: right;}
+.python{width: 70%; background-color: #008080;text-align: right;}
+.linux{width: 60%; background-color: #008080; text-align: right;}
 
 .project{
     display: flex;
     height: 100vh;
     font-size: 25px;
-    background-color:rgb(231, 231, 238); 
     color: black;
     align-items: center;
     text-align: center;
@@ -159,11 +153,9 @@ align-self: flex-end;
 }
 .projetos{
     display: block;
-    background-color: rgb(134, 134, 155);
     padding: 20px 25px;
     width: 35%;  
     text-align: center; 
-    border: solid black;
     
     
 }
@@ -185,7 +177,6 @@ a{color: inherit;}
     height: 100vh;
     text-align: center;
     font-size: 25px;
-    background-color: rgb(232, 232, 241);
 }
 .experiencia-exp{
     padding: 10px 15px;
@@ -194,9 +185,7 @@ a{color: inherit;}
 
 .contato{
     display: flex;
-    background-color: rgb(134, 134, 155);
     height: 35vh;
-    border: solid black;
     margin-bottom: 50px;
     justify-content: center;
 }
