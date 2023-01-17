@@ -1,68 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="stilo/style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/916515369e.js" crossorigin="anonymous"></script>
     <title>LV Araujo</title>
 </head>
+
 <body>
     <div class="menu">
-     <ul>
+        <ul>
             <li><a href="">Home</a></li>
             <li><a href="#sobremim">Sobre mim</a></li>
             <li><a href="#skill">Habilidades</a></li>
-            <li><a href="">Experiencia</a></li>
-            <li><a href="">Projetos</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#certificados">Certificados</a></li>
             <li><a href="#contato">Contato</a></li>
-     </ul>
+        </ul>
     </div>
-    <section class="home" id="home" > 
+    <section class="home" id="home">
         <h1>OLA BEM VINDO AO MEU PRIMEIRO PORTIFOLIO</h1>
     </section>
-    
-    <div class="title"><h2>Sobre Mim</h2></div>    
+
+    <div class="title" id="sobremim">
+        <h1>Sobre Mim</h1>
+    </div>
     <div class="sobremim">
-        <div class="text">
-            <p>GRADUADO EM REDES DE COMPUTADORE, COM 2 ANOS DE EXPERENCIA EM SERVICO TECNICOS E ESTUDANTE DE PROGRAMAÇÃO NO SENAI</p>
-        </div>
+        <div class="text" id="sobre">
+            <p>GRADUADO EM REDES DE COMPUTADORE, COM 2 ANOS DE EXPERENCIA EM SERVICO TECNICOS E ESTUDANTE DE
+                PROGRAMAÇÃO NO SENAI</p>
+        <a href="../pdfs/cv lucas-convertido_2.pdf"><p>Ver Curriculo</p>
+        </a>
     </div>
-    <div class="sobremim" id="saibamais"><a href="../pdfs/cv lucas-convertido_2.pdf">
-        <p>Ver Curriculo</p>
-    </a>
     </div>
-      <div class="title"><h2>Certificados</h2></div>
-    <div class="services">
-     <div class="card">
-        <div class="box">
-            <div class="text">Data Science</div>
-            <p>analise e manutençã de dados atraves de python</p>
-        </div>
-     </div>
-    
-    <div class="services">
-     <div class="card">
-        <div class="box">
-            <div class="text">DEV WEB</div>
-            <p>desenvolvimeto front end css e html e back end java e jascript</p>
-        </div>
-     </div>
+    <div class="title" id="certificados">
+        <h1>Certificados</h1>
     </div>
     <div class="services">
-     <div class="card">
-        <div class="box">
-            <div class="text">Infra</div>
-            <p>manutenção de cabeamentos e configuração de servidores Apache e DHCP</p>
-        </div>
-     </div>
+       
+                <div class="text">
+                    <i class="fa-sharp fa-solid fa-square-poll-vertical"></i>
+                    <h2>Data Science</h2>
+                    <p>analise e manutenção de dados atraves de python</p>
+                </div>
+        
+        
+            
+                    <div class="text">
+                        <i class="fa-solid fa-file-code"></i>
+                        <h2>DEV WEB</h2>
+                        <p>desenvolvimeto front end css e html e back end java e jascript</p>
+                    </div>
+           
+        
+          
+                    <div class="text">
+                        <i class="fa-solid fa-server"></i>
+                        <h2>Infraestrutura</h2>
+                        <p>manutenção de cabeamentos e configuração de servidores Apache e DHCP</p>
+                    </div>
+              
+        
     </div>
+    <div class="title" id="skill">
+        <h1>Habilidades</h1>
     </div>
-      <div class="title"><h2>Habilidades</h2></div>
     <div class="skill">
         <p>HTML</p>
         <div class="lista">
-           <div class="html">80%</div>
+            <div class="html">80%</div>
         </div>
         <p>PYTHON</p>
         <div class="lista">
@@ -70,35 +79,41 @@
         </div>
         <p>CSS</p>
         <div class="lista">
-           <div class="css">80%</div>
+            <div class="css">80%</div>
         </div>
         <p>LINUX</p>
         <div class="lista">
             <div class="linux">60%</div>
         </div>
     </div>
-      <div class="title" id="proid"><h2>Projetos</h2></div>
+    <div class="title" id="proid">
+        <h1>Projetos</h1>
+    </div>
     <div class="project">
-        <div class="projetos"><a href="https://github.com/LVArauj0/projeto/blob/main/Projeto%20de%20dados%20de%20finan%C3%A7as.ipynb">
-            <<p>data science</p>
-            <p>Manuseio de tabelas atraves da bibblioteca pandas</p>
+        <div class="projetos"><a
+                href="https://github.com/LVArauj0/projeto/blob/main/Projeto%20de%20dados%20de%20finan%C3%A7as.ipynb">
+                <h2>data science</h2>
+                    <p>Manuseio de tabelas atraves da bibblioteca pandas</p>
             </a>
         </div>
         <div class="projetos">
-            <p>dev web</p>
+            <h2>dev web</h2>
             <p>desenvolvimeto de portifolios e calculadora usando html,css e javascript</p>
         </div>
         <div class="projetos">
-            <p>Infraestrutura</p>
+            <h2>Infraestrutura</h2>
             <p>levantamento de servidores atraves de linux debian e configuração de redes atraves de packet tracer</p>
         </div>
     </div>
-      <div class="title"><h2>Experiencia</h2></div>
+    <div class="title" id="experiencia">
+        <h1>Experiencia</h1>
+    </div>
     <div class="experiencia">
         <div class="experiencia-exp" id="tjap">
             <img src="../imagens/logo-tjap-new.png" alt="">
             <p>Tribunal de Justiça do Amapa</p>
-            <p>Manuteção e atedimento ao usuario, serviços de redes como manutenção em cabeamentos e configuração de vpns</p>
+            <p>Manuteção e atedimento ao usuario, serviços de redes como manutenção em cabeamentos e configuração de
+                vpns</p>
         </div>
         <div class="experiencia-exp" id="seed">
             <img src="../imagens/seed-ap-secretaria-de-estado-de-educacao-do-amapa-removebg-preview.png" alt="">
@@ -106,10 +121,14 @@
             <p>Manutenção e atedimento ao usuario e configuração de usuarios no active directory</p>
         </div>
     </div>
-    
-    <div class="contato">
-       <div class="linkedin"><a href="https://www.linkedin.com/in/lucas-araujo-068508142/"> <img src="../imagens/png-transparent-linkedin-computer-icons-blog-logo-watercolor-butterfly-angle-text-rectangle-removebg-preview.png" alt="" width="200px" height="200px"></a></div>
-        <div class="git"><a href="https://github.com/LVArauj0"><img src="../imagens/218-2181371_logo-git-git-icon-removebg-preview.png" alt="" width="200px" height="200px"></div></a
-    </div>
+
+    <div class="contato" id="contato">
+        <div class="linkedin"><a href="https://www.linkedin.com/in/lucas-araujo-068508142/"> <img
+                    src="../imagens/png-transparent-linkedin-computer-icons-blog-logo-watercolor-butterfly-angle-text-rectangle-removebg-preview.png"
+                    alt="" width="200px" height="200px"></a></div>
+        <div class="git"><a href="https://github.com/LVArauj0"><img
+                    src="../imagens/218-2181371_logo-git-git-icon-removebg-preview.png" alt="" width="200px"
+                    height="200px"></div></a </div>
 </body>
+
 </html>
