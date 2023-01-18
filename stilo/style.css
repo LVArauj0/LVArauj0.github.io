@@ -221,19 +221,19 @@ a{color: inherit;}
 .contato{
     display: flex;
     height: 35vh;
-    margin-bottom: 50px;
     justify-content: center;
-    background-color: #008080;
+    font-size: 3em;
+    
 }
 .linkedin{
     display: flex;
     align-items: center;
-    
+    margin: 50px;
     
 
 }
 .git{
     display: flex;
     align-items: center;
-    
+    margin: 50px;
 }
