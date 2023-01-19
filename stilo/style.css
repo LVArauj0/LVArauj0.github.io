@@ -14,10 +14,10 @@ body{
     color: #008080
 }
 @media only screen and (max-width: 768px){
-    .sobremim{
+    .services{
         width: 100%;
     }
-    .experiencia{
+    .text{
         width: 100%;
     }
 }
