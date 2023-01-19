@@ -14,19 +14,8 @@ body{
     color: #008080
     
 }
-@media only screen and (max-windth:600px) {
-    .text{
-        display: block;
-    }
-    .project{
-        display: block;
-    }
-    .experiencia{
-        display: block;
-    }
 
-    
-}
+
 html{
     scroll-behavior: smooth;
 }
