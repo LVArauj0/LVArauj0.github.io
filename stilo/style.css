@@ -15,10 +15,12 @@ body{
 }
 @media only screen and (min-width: 600px){
     .services{
+        display: flex;
         width: 100%;
         flex-direction: column;
     }
     .text{
+        display: flex;
         width: 100%;
         flex-direction: column;
     }
