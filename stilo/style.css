@@ -13,14 +13,19 @@ body{
     background-color: rgb(245, 245, 245);
     color: #008080
 }
-@media only screen and (min-width: 600px){
+@media screen and (max-width: 600px){
     .services{
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     .text{
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .project{
+        display: flex;
+        flex-direction: column;
+
     }
 }
 
