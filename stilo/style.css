@@ -76,7 +76,6 @@ li a:hover{
 .home{
     display: flex;
     font-size: 25px;
-    background-image: url("../imagens/Dev-Full-Stack-1280x720.png");
     color: rgb(32, 31, 31);
     
 }
